@@ -52,6 +52,10 @@ button {
 #message {
     margin-top: 20px;
     font-size: 1.2em;
+    text-align: center;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
 }
 
 .hidden {
@@ -78,4 +82,15 @@ footer a {
 
 footer a:hover {
     color: #ff66b2;
+}
+
+#pig-gif {
+    width: 90px; /* Ajusta el tamaño a tu gusto */
+    margin-top: 20px;
+    display: none; /* Oculto por defecto */
+    
+}
+
+#pig-gif.visible {
+    display: block; /* Mostrar el GIF cuando sea necesario */
 }
