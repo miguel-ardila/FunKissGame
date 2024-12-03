@@ -8,7 +8,7 @@ let hoverAttempts = 0;
 // Función para mover el botón
 function moveNoButton() {
     hoverAttempts++;
-    if (hoverAttempts < 7) {
+    if (hoverAttempts < 100) {
         let randomX = Math.random() * 200 - 100; // Ajusta el rango según tu diseño
         let randomY = Math.random() * 200 - 100;
 
